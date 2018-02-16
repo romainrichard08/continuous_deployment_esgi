@@ -1,0 +1,12 @@
+{
+    "name": "romainrichard08/continuous_deployment_esgi",
+    "description": "Cours ESGI - Intégration & Déploiement continu",
+    "authors": [
+        {
+            "name": "romainrichard08",
+            "email": "romain.richard.08@hotmail.fr"
+        }
+    ],
+    "require": {
+    }
+}
