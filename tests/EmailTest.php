@@ -12,8 +12,7 @@ final class EmailTest extends TestCase
         $email = new Email("toto@gmail.com");
         $this->assertInstanceOf(
             Email::class,
-            //$email->fromString('toto@gmail.com')
-            Email::fromString("zdadza");
+            $email->fromString('toto@gmail.com')
         );
     }
 
