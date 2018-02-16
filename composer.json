@@ -1,13 +1,13 @@
 {
-    "name": "elyes/indus-eeb",
-    "description": "5A IW2 Elyes EL BAHRI",
+    "name": "romainrichard08/continuous_deployment_esgi",
+    "description": "5A IW2 Romain RICHARD",
     "authors": [
         {
-            "name": "eelbahri",
-            "email": "elyes.elbahri77@gmail.com"
+            "name": "romainrichard08",
+            "email": "romain.richard.08@hotmail.fr"
         }
     ],
     "require": {
-        "fzaninotto/faker": "^1.7"
+        "phpunit/phpunit": "^6.5"
     }
 }
