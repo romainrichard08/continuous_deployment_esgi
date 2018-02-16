@@ -7,7 +7,7 @@
             "email": "romain.richard.08@hotmail.fr"
         }
     ],
-    "require": {
-        "fzaninotto/faker": "^1.7"
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
     }
 }
