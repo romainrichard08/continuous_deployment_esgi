@@ -7,11 +7,13 @@ use PHPUnit\Framework\TestCase;
 
 final class EmailTest extends TestCase
 {
-
-    public function testCannotBeCreatedFromInvalidEmailAddress(): void
+    public function testCanBeCreatedFromValidEmailAddress()    
     {
-        $email = new Email("toto@hotmail.fr")
-        $this->expectException(InvalidArgumentException::class);
-        $email->fromString('invalid');
+        $email = new Email("aa@bb.fr");
+        $this->assertInstanceOf(
+            Email::class,
+            $email->fromString('aa@bb.fr')
+        );
     }
+
 }
