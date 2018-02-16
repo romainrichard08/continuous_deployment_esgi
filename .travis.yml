@@ -1,0 +1,24 @@
+language: php
+
+php: 7.1
+
+before_script:
+    - composer install
+
+script:
+    - docker run --rm -v $PWD:/app phpqa/phpcs .
+    - docker run --rm -v $PWD:/app phpqa/security-checker security:check
+    - phpunit
+
+deploy:
+    provider: heroku
+    api_key:
+        secure: 30e80510-0973-4cb9-bce6-f28be0ce25f8
+    app: continuous-deployment-esgi
+
+notifications:
+    email:
+        recipients:
+            - romain.richard.08@hotmail.fr
+        on_success: never
+        on_failure: always
