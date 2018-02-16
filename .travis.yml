@@ -6,7 +6,7 @@ before_script:
     - composer install
 
 script:
-    - docker run --rm -v $PWD:/app phpqa/phpcs index.php
+    - docker run --rm -v $PWD:/app phpqa/php-cs-fixer --show-progress=estimating --verbose .
     - docker run --rm -v $PWD:/app phpqa/security-checker security:check
 
 # deploy:
