@@ -15,6 +15,8 @@ deploy:
     api_key:
         secure: M76nYubHxdIukUf91Bg8i39hyBfC3ibFq86P+nQi+m7w8/7DyeYIwmB8KPXUoz6NyeAkYvHpuiHxJb7ro+5Sier2h7CCUfoOBxGkOhngQDVT5Un7WlW5pa0iijyZLo1DRP51uHjWhH5EC+5/E9nZvABT+cNRjU0VZSwheYZdOJCtacJDa9d6+3mQGma/4ZqlZ+sae4K7KcA2bZhJxm58skyPjcOavjGflW2879Q7rriq/Gqz7EBn5Q034l5pyS0tMxcYByBgef+O6JpI3O9qOmejU7/LKaWUnd/Cf+uz+r+NmCSkxaXJKdubsGIqp586U2ySnPRFx3jRjdvRrWdHGO5aZR0GvlOwMVryojyhvU43wYLv+NMAOl5h6A8yFh8qT0407+Wtn+F39vM4eerhkw5SZES6KwmYkEAn+eK4ujo5z831Hv0A8cXXSrL6SZKB56j1w4p7iJ0VllTBaAlZfzCr8gyIG+rQ17MV5ZlU8NKfWfJyH8nUX6WLhnKK4BR7ED+zPCuzg2KXWVl1bBhdOPYjjw3OeYZNTa1iu+Qn2M62a1Q5MxLkRJhE3S2j87JGg4Bq1ivgipkeja6RlBQeqXKylpMsGUHgAqHiCjE641smclyc+oCfm2u/d88l4MEdFNDa7ViZMG/Tatpk47xNP1zTVl7HDmMnUzBhx1KCvx8=
     app: romsyindus
+    on:
+        repo: romainrichard08/continuous_deployment_esgi
 
 notifications:
     email:
