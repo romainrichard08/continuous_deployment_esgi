@@ -8,16 +8,15 @@ before_script:
 script:
     - docker run --rm -v $PWD:/app phpqa/phpcs .
     - docker run --rm -v $PWD:/app phpqa/security-checker security:check
-    - phpunit
 
-deploy:
-    provider: heroku
-    api_key:
-        secure: 30e80510-0973-4cb9-bce6-f28be0ce25f8
-    app: continuous-deployment-esgi
-    on: 
-        repo: romainrichard08/continuous-deployment-esgi
-        branch: develop
+# deploy:
+#     provider: heroku
+#     api_key:
+#         secure: 30e80510-0973-4cb9-bce6-f28be0ce25f8
+#     app: continuous-deployment-esgi
+#     on: 
+#         repo: romainrichard08/continuous-deployment-esgi
+#         branch: develop
 
 notifications:
     email:
